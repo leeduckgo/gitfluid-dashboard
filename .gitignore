@@ -180,3 +180,4 @@ dist
 n
 yarn.lock
 package-lock.json
+.vercel
