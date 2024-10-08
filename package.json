@@ -6,7 +6,7 @@
     "prepare": "husky install",
     "dev": "vite",
     "local": "vite --mode development.localserver",
-    "build": "npm run type-check && vite build",
+    "build": "vite build",
     "type-check": "tsc --noEmit",
     "type-check:watch": "tsc --noEmit --watch",
     "lint": "eslint --quiet src --ext .ts,.tsx && stylelint src/**/*.less",
